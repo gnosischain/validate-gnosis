@@ -8,9 +8,9 @@ export default function Home() {
           VALIDATE <br /> SECURE <br /> EARN
         </p>
       </div>
-      <div className="w-full flex flex-col items-center px-80 py-24">
-        <p className="text-[49px]">GNO is Your Key To Staking</p>
-        <div className="w-full flex justify-between mt-8 text-[25px]">
+      <div className="w-full flex flex-col items-center px-2 lg:px-80 py-24">
+        <p className="text-xl lg:text-[49px]">GNO is Your Key To Staking</p>
+        <div className="w-full flex justify-between mt-8 text-lg lg:text-[25px]">
           <div className="flex flex-col">
             <p>Total Staked GNO</p>
           </div>
@@ -21,8 +21,8 @@ export default function Home() {
             <p>Active Validators</p>
           </div>
         </div>
-        <p className="text-[49px] mt-24">Choose Your Plan</p>
-        <div className="w-full flex justify-between mt-8 text-[25px]">
+        <p className="text-xl lg:text-[49px] mt-24">Choose Your Plan</p>
+        <div className="w-full flex justify-between mt-8 text-lg lg:text-[25px]">
           <div className="flex flex-col">
             <p>Beginner</p>
             <p className="text-base">If you do not have the resources to build your own machine or can't afford a machine</p>
